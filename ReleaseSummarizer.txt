@@ -26,3 +26,9 @@ Production Support: Easier identification and resolution of production issues th
 Name of the Idea: Automated Release Code Change Summarization  
 
 Description: Automate the analysis and summarization of code changes in production releases using GitHub Actions and Gemini AI to improve communication and production stability.
+
+Identifying changes in a release requires checking Jira stories tagged to the release's fix version, but many are unaware that they can check Jira features for the fix version to understand release changes.
+Understanding actual code changes through Jira stories' descriptions or acceptance criteria is time-consuming.
+Code changes in PRs often do not match the descriptions in the tagged Jira stories due to manual errors.
+Many are unaware that they can check Jira features for the fix version to understand release changes.
+Test coverage issues may arise as testers might miss critical changes not accurately reflected in the Jira stories.
